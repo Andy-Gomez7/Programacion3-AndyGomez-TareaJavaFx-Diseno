@@ -22,10 +22,15 @@
   - GridPane
 
 ## Aplicacion1 Registro de Visita
-Utilize un Vbox como root y luego un hbox con los botones y otro hbox con los radiobuttons, para luego colocarlo todo verticalmente en el vbox incluidos los label, textfield y los hbox. Y luego agregue el root a la escena, agregue la escena al stage y mostre el stage con .show().
+
+Utilize un Vbox como root y luego un Hbox con los botones y otro Hbox con los radiobuttons, para luego colocarlo todo verticalmente en el vbox incluidos los label, textfield y los hbox. Y luego agregue el root a la escena, agregue la escena al stage y mostre el stage con .show().
 
 ## Aplicacion2 Sistema de Inventario
-Cree un borderpane y despues un vbox y un hbox, en el vbox coloque todos los label y texfield, en el hbox coloque todos los botones que cree, luego realize multiples checkbox y tambien un combobox, luego agregue el combobox y todos los checkbox al vbox. y por ultimo agregue en el borderpane mi hbox y mi vbox y coloque mi vbox a la izquierda y mi hbox a la derecha.Y luego agregue el r a la escena, agregue la escena al stage y mostre el stage con .show()
+
+Cree un borderpane y despues un vbox y un hbox. En el vbox coloque todos los label, textfield, checkbox y el combobox. En el hbox coloque todos los botones que cree. Luego agregue el vbox a la izquierda del borderpane y la tableview a la derecha.
+Y luego agregue el root a la escena, agregue la escena al stage y mostre el stage con .show().
 
 ## Aplicacion3 Perfil de Estudiante
-Cree un gridpane como root, cree todos los label y textfield, luego un combobox con las opciones de semestres disponibles, luego cree un vbox y un stack pane en donde coloque un objeto circle en el, coloque todos los label, textfield y textArea en el vbox, luego coloque en mi root mi stackpane, mi vbox y mi combobox de materias debido a que el root es un grid pane y puedo organizar los elementos en secciones. 
+Cree un gridpane como root, cree todos los label y textfield. Luego un combobox con las opciones de semestres disponibles.
+Luego cree un vbox en donde coloque todos los label, textfield y textArea de forma vertical. También cree un stack pane en donde coloque un objeto circle.
+Luego agregue el vbox a una sección del gridpane, la lista de materias a otra sección y el stackpane a otra sección, ya que el gridpane permite organizar los elementos en filas y columnas.
